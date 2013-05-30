@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd $ZMON_HOME/log;
+
+zeta -f $ZMON_HOME/conf/zeta.conf;
+
+

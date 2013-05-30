@@ -1,0 +1,6 @@
+#!/bin/bash
+
+kill `cat $ZMON_HOME/log/zeta.pid`;
+rm -fr $ZMON_HOME/log/zeta.pid;
+
+

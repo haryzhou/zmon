@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# 停止应用
+if [ -f "$ZMON_HOME/log/zeta.pid" ]; then 
+    kill `cat $ZMON_HOME/log/zeta.pid`;
+fi
+rm -fr $ZMON_HOME/log/zeta.pid;
+
+# 清理日志
+cd $ZMON_HOME/log;
+rm -fr *.log;
+
+zeta -f $ZMON_HOME/conf/zeta.conf;
+
+
