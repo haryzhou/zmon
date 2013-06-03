@@ -1,4 +1,4 @@
-package ZMON::zmon;
+package ZMON::zero;
 use strict;
 use warnings;
 use base qw/ZMON/;

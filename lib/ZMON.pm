@@ -1,4 +1,4 @@
-package Moni;    
+package ZMON;    
 use strict;
 use warnings;
 use POE;
@@ -6,7 +6,7 @@ use POE::Session;
 
 #
 # 构造函数
-# Zero::Moni->new(
+# ZMON->new(
 #     name => $name
 # );
 #
